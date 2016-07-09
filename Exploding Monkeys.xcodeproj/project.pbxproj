@@ -14,6 +14,19 @@
 		FAE23A8B1D301A7600BCBF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A891D301A7600BCBF57 /* Main.storyboard */; };
 		FAE23A8D1D301A7600BCBF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A8C1D301A7600BCBF57 /* Assets.xcassets */; };
 		FAE23A901D301A7600BCBF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A8E1D301A7600BCBF57 /* LaunchScreen.storyboard */; };
+		FAE23AA41D301F2A00BCBF57 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A981D301F2A00BCBF57 /* banana.png */; };
+		FAE23AA51D301F2A00BCBF57 /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A991D301F2A00BCBF57 /* banana@2x.png */; };
+		FAE23AA61D301F2A00BCBF57 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9A1D301F2A00BCBF57 /* hitBuilding.sks */; };
+		FAE23AA71D301F2A00BCBF57 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9B1D301F2A00BCBF57 /* hitPlayer.sks */; };
+		FAE23AA81D301F2A00BCBF57 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9C1D301F2A00BCBF57 /* player.png */; };
+		FAE23AA91D301F2A00BCBF57 /* player1Throw.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9D1D301F2A00BCBF57 /* player1Throw.png */; };
+		FAE23AAA1D301F2A00BCBF57 /* player1Throw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9E1D301F2A00BCBF57 /* player1Throw@2x.png */; };
+		FAE23AAB1D301F2A00BCBF57 /* player2Throw.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A9F1D301F2A00BCBF57 /* player2Throw.png */; };
+		FAE23AAC1D301F2A00BCBF57 /* player2Throw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23AA01D301F2A00BCBF57 /* player2Throw@2x.png */; };
+		FAE23AAD1D301F2A00BCBF57 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23AA11D301F2A00BCBF57 /* player@2x.png */; };
+		FAE23AAE1D301F2A00BCBF57 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE23AA21D301F2A00BCBF57 /* spark.png */; };
+		FAE23AAF1D301F2A00BCBF57 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE23AA31D301F2A00BCBF57 /* Helper.swift */; };
+		FAE23AB11D3020FB00BCBF57 /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE23AB01D3020FB00BCBF57 /* BuildingNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		FAE23A8C1D301A7600BCBF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE23A8F1D301A7600BCBF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE23A911D301A7600BCBF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE23A981D301F2A00BCBF57 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		FAE23A991D301F2A00BCBF57 /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana@2x.png"; sourceTree = "<group>"; };
+		FAE23A9A1D301F2A00BCBF57 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
+		FAE23A9B1D301F2A00BCBF57 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
+		FAE23A9C1D301F2A00BCBF57 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		FAE23A9D1D301F2A00BCBF57 /* player1Throw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1Throw.png; sourceTree = "<group>"; };
+		FAE23A9E1D301F2A00BCBF57 /* player1Throw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player1Throw@2x.png"; sourceTree = "<group>"; };
+		FAE23A9F1D301F2A00BCBF57 /* player2Throw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2Throw.png; sourceTree = "<group>"; };
+		FAE23AA01D301F2A00BCBF57 /* player2Throw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player2Throw@2x.png"; sourceTree = "<group>"; };
+		FAE23AA11D301F2A00BCBF57 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		FAE23AA21D301F2A00BCBF57 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		FAE23AA31D301F2A00BCBF57 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FAE23AB01D3020FB00BCBF57 /* BuildingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +87,34 @@
 				FAE23A811D301A7600BCBF57 /* AppDelegate.swift */,
 				FAE23A831D301A7600BCBF57 /* GameScene.sks */,
 				FAE23A851D301A7600BCBF57 /* GameScene.swift */,
+				FAE23AB01D3020FB00BCBF57 /* BuildingNode.swift */,
 				FAE23A871D301A7600BCBF57 /* GameViewController.swift */,
 				FAE23A891D301A7600BCBF57 /* Main.storyboard */,
 				FAE23A8C1D301A7600BCBF57 /* Assets.xcassets */,
+				FAE23A971D301F2A00BCBF57 /* Content */,
+				FAE23AA31D301F2A00BCBF57 /* Helper.swift */,
 				FAE23A8E1D301A7600BCBF57 /* LaunchScreen.storyboard */,
 				FAE23A911D301A7600BCBF57 /* Info.plist */,
 			);
 			path = "Exploding Monkeys";
+			sourceTree = "<group>";
+		};
+		FAE23A971D301F2A00BCBF57 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE23A981D301F2A00BCBF57 /* banana.png */,
+				FAE23A991D301F2A00BCBF57 /* banana@2x.png */,
+				FAE23A9A1D301F2A00BCBF57 /* hitBuilding.sks */,
+				FAE23A9B1D301F2A00BCBF57 /* hitPlayer.sks */,
+				FAE23A9C1D301F2A00BCBF57 /* player.png */,
+				FAE23A9D1D301F2A00BCBF57 /* player1Throw.png */,
+				FAE23A9E1D301F2A00BCBF57 /* player1Throw@2x.png */,
+				FAE23A9F1D301F2A00BCBF57 /* player2Throw.png */,
+				FAE23AA01D301F2A00BCBF57 /* player2Throw@2x.png */,
+				FAE23AA11D301F2A00BCBF57 /* player@2x.png */,
+				FAE23AA21D301F2A00BCBF57 /* spark.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +176,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE23AAA1D301F2A00BCBF57 /* player1Throw@2x.png in Resources */,
+				FAE23AAD1D301F2A00BCBF57 /* player@2x.png in Resources */,
 				FAE23A841D301A7600BCBF57 /* GameScene.sks in Resources */,
 				FAE23A901D301A7600BCBF57 /* LaunchScreen.storyboard in Resources */,
+				FAE23AA81D301F2A00BCBF57 /* player.png in Resources */,
 				FAE23A8D1D301A7600BCBF57 /* Assets.xcassets in Resources */,
+				FAE23AA61D301F2A00BCBF57 /* hitBuilding.sks in Resources */,
+				FAE23AAB1D301F2A00BCBF57 /* player2Throw.png in Resources */,
+				FAE23AA51D301F2A00BCBF57 /* banana@2x.png in Resources */,
 				FAE23A8B1D301A7600BCBF57 /* Main.storyboard in Resources */,
+				FAE23AAE1D301F2A00BCBF57 /* spark.png in Resources */,
+				FAE23AA71D301F2A00BCBF57 /* hitPlayer.sks in Resources */,
+				FAE23AA41D301F2A00BCBF57 /* banana.png in Resources */,
+				FAE23AA91D301F2A00BCBF57 /* player1Throw.png in Resources */,
+				FAE23AAC1D301F2A00BCBF57 /* player2Throw@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE23A861D301A7600BCBF57 /* GameScene.swift in Sources */,
+				FAE23AB11D3020FB00BCBF57 /* BuildingNode.swift in Sources */,
 				FAE23A881D301A7600BCBF57 /* GameViewController.swift in Sources */,
 				FAE23A821D301A7600BCBF57 /* AppDelegate.swift in Sources */,
+				FAE23AAF1D301F2A00BCBF57 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +357,7 @@
 				FAE23A961D301A7600BCBF57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
