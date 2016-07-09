@@ -26,6 +26,12 @@ class GameViewController: UIViewController {
     // The label displaying the current player.
     @IBOutlet weak var playerNumber: UILabel!
     
+    /*
+     * Function Name: viewDidLoad
+     * Parameters: None
+     * Purpose: This method sets up the user interface.
+     * Return Value: None
+     */
     
     override func viewDidLoad() {
         super.viewDidLoad()

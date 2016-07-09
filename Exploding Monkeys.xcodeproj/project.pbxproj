@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FACE1C3B1D312D16006016FE /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FACE1C3A1D312D16006016FE /* assets.atlas */; };
 		FAE23A821D301A7600BCBF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE23A811D301A7600BCBF57 /* AppDelegate.swift */; };
 		FAE23A841D301A7600BCBF57 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAE23A831D301A7600BCBF57 /* GameScene.sks */; };
 		FAE23A861D301A7600BCBF57 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE23A851D301A7600BCBF57 /* GameScene.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FACE1C3A1D312D16006016FE /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
 		FAE23A7E1D301A7600BCBF57 /* Exploding Monkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exploding Monkeys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE23A811D301A7600BCBF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE23A831D301A7600BCBF57 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				FAE23A871D301A7600BCBF57 /* GameViewController.swift */,
 				FAE23A891D301A7600BCBF57 /* Main.storyboard */,
 				FAE23A8C1D301A7600BCBF57 /* Assets.xcassets */,
+				FACE1C3A1D312D16006016FE /* assets.atlas */,
 				FAE23A971D301F2A00BCBF57 /* Content */,
 				FAE23AA31D301F2A00BCBF57 /* Helper.swift */,
 				FAE23A8E1D301A7600BCBF57 /* LaunchScreen.storyboard */,
@@ -178,6 +181,7 @@
 			files = (
 				FAE23AAA1D301F2A00BCBF57 /* player1Throw@2x.png in Resources */,
 				FAE23AAD1D301F2A00BCBF57 /* player@2x.png in Resources */,
+				FACE1C3B1D312D16006016FE /* assets.atlas in Resources */,
 				FAE23A841D301A7600BCBF57 /* GameScene.sks in Resources */,
 				FAE23A901D301A7600BCBF57 /* LaunchScreen.storyboard in Resources */,
 				FAE23AA81D301F2A00BCBF57 /* player.png in Resources */,
